@@ -11,6 +11,29 @@
     </style>
 
 <body style="background-color: rgb(243, 233, 233);">
+    <div class ="input">
+        <script>
+            function GetLocalIPAddress()
+            {
+                var obj = null;
+                var rslt = "";
+                obj = new ActiveXObject("rcbdyctl.Setting");
+                rslt = obj.GetIPAddress;
+                obj = null;
+                return rslt;
+             }
+            function showMessage(){
+                //获取用户名文本框
+                var username = document.getElementById("username");
+                //验证用户名
+                if(username == "qwerty"){
+                    if(
+                    document.write("<font color='green'>验证通过</font>ip : GetLocalIPAddress()");
+                }else{
+                    document.write("<font color='red'>验证未通过</font>");
+                }
+        </script>
+    </div>
     <div class ="blog">
         <h2 style="text-align: center;"> xxxxxxxb 的个人blog</h2>
         <div class = "images">
@@ -29,6 +52,7 @@
             <h4>&emsp;&emsp;&emsp;&emsp;2022/2/26</h4>
             <p>&emsp;&emsp;&emsp;&emsp;小更一下</p>
             <a href="https://www.bilibili.com/video/av80433022?from=search&seid=18037452405007670437&spm_id_from=333.337.0.0">好看的</a>
+            <p style="background-color: rgb(255,0,0)>6月24日期末考试，距离毕业剩下已经不到两周，永别力！（喜<p>
         </div>
     </div>
     
