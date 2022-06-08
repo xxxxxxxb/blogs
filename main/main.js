@@ -22,7 +22,7 @@ return index;
 var photos = HashMap(114514);
 photos.set(0,'main/img/2233jk.jpg');
 photos.set(1,'main/img/v2-89aa40908b00c7d23fd265e897fe2989_r.jpg')
-photos.set(2,'')
+photos.set(2,'02789FA6-ABFD-47FB-9630-552DE0575855.jpeg')
 var cnt = 0;
 myImage.onclick = function() {
     if(cnt === 4){
