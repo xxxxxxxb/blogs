@@ -1,6 +1,6 @@
 let myImage = document.querySelector('img');
 myImage.onclick = function() {
-    var mySrc = myImage.getAttribute('src');
+    mySrc = myImage.getAttribute('src');
     if(mySrc === 'main/img/2233jk.jpg'){
         myImage.setAttribute('src','main/img/v2-89aa40908b00c7d23fd265e897fe2989_r.jpg');
     }
