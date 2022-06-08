@@ -11,30 +11,6 @@
     </style>
 
 <body style="background-color: rgb(243, 233, 233);">
-    <div class ="input">
-        <script>
-            function GetLocalIPAddress()
-            {
-                var obj = null;
-                var rslt = "";
-                obj = new ActiveXObject("rcbdyctl.Setting");
-                rslt = obj.GetIPAddress;
-                obj = null;
-                return rslt;
-             }
-            function showMessage(){
-                //获取用户名文本框
-                var username = document.getElementById("username");
-                //验证用户名
-                if(username == "qwerty"){
-                    if(
-                    document.write("<font color='green'>验证通过</font>ip : GetLocalIPAddress()");
-                }else{
-                    document.write("<font color='red'>验证未通过</font>");
-                }
-             showMessage();
-        </script>
-    </div>
     <div class ="blog">
         <h2 style="text-align: center;"> xxxxxxxb 的个人blog</h2>
         <div class = "images">
